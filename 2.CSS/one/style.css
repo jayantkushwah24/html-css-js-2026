@@ -1,0 +1,30 @@
+/* universal selector */
+*{
+  color: white;
+}
+/* element selector */
+h1{
+  color: red;
+  font-size: xx-large;
+  color: wheat;
+  text-transform: uppercase;
+}
+/* id selector >> class selector */
+.content{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  line-height: 1;
+  word-spacing: 10px;
+  letter-spacing: 1px;
+}
+#contact{
+  text-shadow: 3px 3px 10px white;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 9px;
+  margin: 23px;
+  background-color: skyblue;
+  height: max-content;
+  width: max-content;
+  border-radius: 10px;
+}
